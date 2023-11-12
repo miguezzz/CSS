@@ -1,0 +1,30 @@
+/* 
+    inline: não quebra linha e usa a largura mínima necessária para ocupar seu espaço (ver no inspecionar)
+
+    apenas aceita margens e preenchimentos horizontais
+*/
+.inline {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* 
+    quebra linha, lárgura máxima da página, aceita preenchimantos e margens verticais e horizontais
+*/
+.block {
+    display: block;
+}
+
+/* 
+    não quebra linhas, aceita preenchimentos e margens verticais e horizontais
+*/
+.inline-block {
+    display: inline-block;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-right: 15px;
+    padding-left: 15px;
+}
