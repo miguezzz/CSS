@@ -1,0 +1,34 @@
+header {
+    text-align: center;
+    /* posso usar o text-decoration: none; para remover, por exemplo, a sublinha de uma tag <a> */
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: sans-serif;
+    /* fontes de "plano B". se a principal nao estiver disponível, usa as secundárias */
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+p {
+    font-family: 'Inconsolata', monospace;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+footer {
+    letter-spacing: normal;
+    font-family: 'Inconsolata', monospace;
+}
