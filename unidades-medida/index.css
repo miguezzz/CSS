@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #232323;
+    color: #fff;
+    padding: 10px;
+}
+
+section {
+    background-color: #ddd;
+    height: 100px;
+}
+
+.box {
+    border: 1px solid #232323;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 75px;
+}
+
+.px {
+    height: 10px;
+}
+
+/* 
+rem = root element -> baseia-se no valor da raiz. neste caso, 16px * 3 = 48px
+
+da pra usar casa decimal.
+*/
+.rem {
+    height: 3rem;
+}
+
+/* diferentemente do rem, o em (element) baseia-se no elemento atual */
+.em {
+    font-size: 20px;
+    height: 2em;
+}
+
+/* porcentagem da altura do elemento pai */
+.prcnt-33 {
+    height: 33%;
+}
+
+.prcnt-66 {
+    height: 66%;
+}
+
+.prcnt-100 {
+    height: 100%;
+}
+
+/* viewports baseiam-se na área de visualização da janela */
+
+/* viewport height */
+.vh {
+    height: 30vh;
+}
+
+/* viewport width (pouco usado) */
+.vw {
+    width: 50vw;
+}
